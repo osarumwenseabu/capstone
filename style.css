@@ -1,0 +1,559 @@
+/*container */
+#container{
+width:1084px;
+height:auto;
+border-right:groove 1px black;
+border-bottom:groove 1px black;
+}
+/* body1 */
+
+#header {  
+    background:#FFFAFA;
+    position:relative;
+    color:black;
+    height:64px;
+    font-size:20px;
+    display:flex;
+    }
+    
+/* @media only screen for header   */
+@media only screen and (max-width: 380px) {
+  #header {
+    height:64px;
+    width:200px;
+    display:flex;
+    position:relative;
+  }
+}
+    
+
+@media only screen and (max-width: 380px) {
+  #header {
+    <img src="C:\Users\u\bashFiles\capstone\image\ic-logo.svg">
+    <img src="C:\Users\u\bashFiles\capstone\image\ic-on-campus.svg">
+    <img src=" C:\Users\u\bashFiles\capstone\image\ic-online.svg">
+    <img src="C:\Users\u\bashFiles\capstone\image\ic-login.svg">
+    
+  }
+}
+    
+    #Cright {
+      margin:20px;
+      margin-left:0px;
+        }
+    
+#right .a{
+  margin:20px;
+  margin-right:0px;
+    }
+    
+    #left {
+      margin:20px;
+      display:flex;
+      padding-left:440px;
+      font-size:20px;
+      margin-top:0px;
+        }
+       #on {
+        border-right:16px solid lightblue;
+        height:64px;
+        }
+        
+        
+        #onl {
+         border-right:16px solid lightblue;
+         height:64px;
+         }
+         
+         #or {
+          border-right:16px solid lightblue;
+          height:64px;
+          }
+        
+  
+  
+  /* middle */
+  
+  #middle {
+  display:flex;
+  position:relative;
+  background:grey;
+  width:1084px;
+  }
+  
+  
+ .firstFoto img {
+  width:600px;
+  height:432px;
+  padding-left:24px;
+  padding-top:32px;
+  padding-right:40px;
+  padding-bottom:32px;
+  }
+  .words  {
+   padding-top:90px;
+  }
+  /* @media only screen for middle   */
+  @media only screen and (max-width: 380px) {
+  .firstFoto {
+    
+      width:200px;
+      background-color:black;
+    }
+  }
+  
+  /* @media only screen for middle */
+  @media only screen and (max-width: 380px) {
+    .words {
+      display:inline-block;
+      position:relative;
+      width:200px;
+      padding-left:16px;
+      padding-top:32px;
+      padding-bottom:32px;
+    }
+  }
+  
+  /* @media only screen for middle */
+  @media only screen and (max-width: 380px) {
+    .words h3 {
+      padding-top:32px;
+      padding-bottom:24px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .Middlefoot {
+  text-align:center;
+  background:black;
+  height:36px;
+  
+  }
+  
+  .Middlefoot h5 {
+  text-align:center;
+  padding-top:8px;
+  padding-bottom:8px;
+  color:white;
+  }
+
+    /* MiddleBottom */
+  
+  #bottom {
+  position:relative;
+  display:flex;
+  }
+  
+  .secondFoto{
+  width:600px;
+  height:432px;
+  padding-left:40px;
+  padding-top:32px;
+  padding-right:30px;
+  padding-bottom:32px;
+  }
+  
+  /* @media only screen for middleBottom */
+  @media only screen and (max-width: 380px) {
+    #sidebar {
+      padding-left:16px;
+      width:200px;
+      display:inline-block;
+    }
+  }
+  
+  
+  .block h2 {
+  
+  font-size:bold;
+  }
+  .block p{
+  }
+  
+  
+  .block img {
+  display:block;!important;
+  color:black;
+  position:relative;
+  padding-left:24px;
+  }
+  
+  .block h2 {
+  color:black;
+  position:relative;
+  padding-left:24px;
+  }
+  
+  .block p {
+  color:black;
+  position:relative;
+  padding-left:24px;
+  }
+  
+  #sideText {
+  display:flex;
+  position:relative;
+  background-color:white;
+  width:432px;
+  }
+  
+  #sideText img{
+  width:140px;
+  height:170px;
+  padding-left:16px;
+  padding-top:16px;
+  padding-right:16px;
+  padding-bottom:16px;
+  }
+  
+  .sideText h4{
+  padding-top:20px;
+  }
+  
+  
+  #sidebar{
+  width:432px;
+  padding-top:18px;
+  }
+  
+  #sideText2 {
+  display:flex;
+  position:relative;
+  background-color:#ffffff;
+
+  }
+  
+  #sideText2 img{
+  width:140px;
+  height:170px;
+  padding-left:16px;
+  padding-top:16px;
+  padding-right:16px;
+  padding-bottom:16px;
+  }
+  
+  .sideText2 h4{
+  padding-top:20px;
+  
+  }
+  
+  #sideText3 {
+  display:flex;
+  position:relative;
+  background-color:#cccccc;
+  }
+  
+  #sideText3 img{
+  width:140px;
+  height:170px;
+  padding-left:16px;
+  padding-top:16px;
+  padding-right:16px;
+  padding-bottom:16px;
+  }
+  
+  .sideText3 h4{
+  padding-top:20px;
+  
+  }
+  
+  
+  
+  /*StartLearning */
+  
+#startContainer h1{
+text-align:center;
+padding-top:32px;
+margin-bottom:0px;
+padding-bottom:32px;
+background-color:#e5e5e5;
+}
+#startLearning h1{
+display:block;!important;
+   }
+   
+ #startLearning{
+display:flex;
+position:relative;
+padding-bottom:32px;
+padding-left:80px;
+padding-right:80px;
+background-color:#e5e5e5;
+}
+
+/* @media only screen for startLearning */
+@media only screen and (max-width: 380px) {
+  #startLearning{
+    width:200px;
+    display:inline-block;
+    padding-top:16px;
+    padding-bottom:32px;
+    padding-left:16px;
+    paddding-right:16px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #startLearning p{
+    width:200px;
+    display:inline-block;
+    visibility:hidden;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  #startLearning img{
+    width:200px;
+    display:inline-block;
+    visibility:hidden;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #startLearning .soft{
+    width:200px;
+    display:inline-block;
+    padding-top:16px;
+    padding-bottom:16px;
+    padding-left:16px;
+    paddding-right:16px;
+    margin-bottom:8px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #startContainer h1 {
+    width:200px;
+    display:inline-block;
+    padding-top:32px;
+ 
+
+
+#color {
+padding-left:16px;
+background-color:white;
+padding-top:16px;
+margin-top:-3px;
+padding-bottom:24px;
+margin-bottom:32px;
+ }
+
+#color span{
+padding-bottom:20px;
+}
+
+#startLearning img{
+width:300px;
+height:140px;
+padding-top:-18px;
+}
+
+.startLearning2{
+padding-right:16px;
+}
+
+.startLearning1{
+padding-right:16px;
+}
+  
+  
+  /*Thesis Exhibit */
+    
+  #ThesisC{
+  
+    margin-top:-20px;
+    }
+    
+  #exhibit .C{
+  padding-left:24px;
+  padding-bottom:32px;
+  }
+  #exhibit .R{
+  padding-left:24px;
+  }
+    
+  #ThesisC h2{
+  text-align:center;
+  padding-top:32px;
+  margin-bottom:0px;
+  padding-bottom:32px;
+  background-color:#e5e5e5;
+  }
+    
+    
+  #thesis{
+  position:relative;
+  display:flex;
+  }
+  #exhibit h5{
+  position:relative;
+  color:black;
+  display:block;
+  }
+  
+  
+  
+  
+  #thesis video{
+  width:600px;
+  padding-bottom:20px;
+  padding-right:16px;
+  height:400px;
+  padding-left:24px;
+  }
+
+  /* @media only screen for Thesis Exhibit */
+  
+  @media only screen and (max-width: 380px) {
+      #ThesisC h2{
+      padding-top:32px;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    video {
+      width:200px;
+      padding-top:32px;
+      padding-bottom:24px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 380px) {
+    .C{
+      visibility:hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .R{
+      visibility:hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    #thesidebar{
+      width:200px;
+      display:inline-block;
+      padding-top:16px;
+      padding-bottom:32px;
+      padding-left:16px;
+      paddding-right:16px;
+      visibility:hidden;
+    }
+  }
+  #thesideText1{
+  position:relative;
+  display:flex;
+  width:432px;
+  height:168px;
+  padding-top:10px;
+  background-color:grey;
+  }
+  
+  #thesideText1 img{
+  width:150px;
+  height:160px;
+  padding-top:16px;
+  padding-left:16px;
+  padding-bottom:16px;
+  padding-right:16px;
+  }
+  
+  #thesideText2 img{
+  width:150px;
+  height:160px;
+  padding-top:16px;
+  padding-left:16px;
+  padding-bottom:16px;
+  padding-right:16px;
+  }
+  
+  #thesideText2{
+  position:relative;
+  display:flex;
+  padding-top:16px;
+  background-color:white;
+  width:auto;
+  }
+  p{
+  color:black;
+  }
+/*foot*/
+  
+  
+  #foot{
+  position:relative;
+  display:flex;
+  border-top:1px solid black;
+  justify-content:space-between;
+  }
+  
+
+  #Ifoot {
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  }
+  
+  /* @media only screen for foot */
+  @media only screen and (max-width: 380px) {
+    #Ifoot{
+      width:200px;
+      display:inline-block;
+      padding-top:16px;
+      padding-bottom:16px;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .p{
+      width:200px;
+      display:inline-block;
+      visibility:hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .t{
+      width:200px;
+      display:inline-block;
+      visibility:hidden;
+    }
+  }
+  
+  #Ifoot .o{
+  padding-left:24px;
+  }
+
+  #Ifoot .p{
+  padding-right:20px;
+  }
+  
+  #Ifoot .t{
+  padding-right:20px;
+  }
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  .
